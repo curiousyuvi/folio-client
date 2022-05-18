@@ -1,0 +1,44 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10rem;
+}
+
+.user-field {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.user-field__label {
+  width: 50%;
+}
+
+.user-field__value {
+  margin: 5px;
+}
+
+.user-form__btn {
+  outline: none;
+  border: none;
+  background: rgb(49, 49, 49);
+  color: white;
+  padding: 0.2rem;
+  border-radius: 20px;
+  align-self: stretch;
+}
+
+.user-field__input {
+  width: 50%;
+  margin: 5px;
+}
